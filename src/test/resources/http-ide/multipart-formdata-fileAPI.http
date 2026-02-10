@@ -1,0 +1,32 @@
+###upload text file
+POST http://localhost:8080/file
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="name"
+
+pawa
+--boundary
+Content-Disposition: form-data; name="file"; filename="test.txt"
+Content-Type: text/plain
+
+hello from file
+--boundary--
+
+###upload an image
+POST http://localhost:8080
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="name"
+
+pawa
+--boundary
+Content-Disposition: form-data; name="file"; filename="cat.png"
+Content-Type: image/png
+
+\x89PNG\r\n\x1A\n\x00\x00\x00\rIHDR\x00\x00\x00\x10\x00\x00\x00\x10\x08\x06\x00\x00\x00\x1F\xF3\xFF
+--boundary--
+
+###get image bytes
+GET http://localhost:8080
