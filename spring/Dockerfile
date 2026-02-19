@@ -4,11 +4,11 @@ WORKDIR /app
 
 # Copy Maven/Gradle build files first for caching (Maven example)
 COPY mvnw pom.xml ./
-COPY .mvn .mvn
+COPY ../.mvn .mvn
 RUN ./mvnw -q dependency:go-offline
 
 # Copy source
-COPY src src
+COPY ../src src
 
 # Build Spring Boot fat jar (layered)
 RUN ./mvnw -q clean package -DskipTests
