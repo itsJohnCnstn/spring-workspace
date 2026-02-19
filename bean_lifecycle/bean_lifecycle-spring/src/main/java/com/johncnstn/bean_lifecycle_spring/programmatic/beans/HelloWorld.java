@@ -1,4 +1,4 @@
-package programmatic.beans;
+package com.johncnstn.bean_lifecycle_spring.programmatic.beans;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
@@ -13,11 +13,11 @@ import org.springframework.beans.factory.InitializingBean;
 public class HelloWorld implements InitializingBean, DisposableBean {
     @Override
     public void afterPropertiesSet() throws Exception {
-        System.out.println("Programmatic destroy() method");
+        System.out.println("Programmatic init() method");
     }
 
     @Override
     public void destroy() throws Exception {
-        System.out.println("Programmatic init() method");
+        System.out.println("Programmatic destroy() method");
     }
 }

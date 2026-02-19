@@ -1,4 +1,4 @@
-package annotations.beans;
+package com.johncnstn.bean_lifecycle_spring.annotations.beans;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;

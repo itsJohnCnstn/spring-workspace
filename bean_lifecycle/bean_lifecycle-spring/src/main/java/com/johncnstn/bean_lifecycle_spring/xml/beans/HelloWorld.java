@@ -1,4 +1,4 @@
-package xml.beans;
+package com.johncnstn.bean_lifecycle_spring.xml.beans;
 
 public class HelloWorld {
 
