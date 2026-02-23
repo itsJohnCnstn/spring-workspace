@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.johncnstn</groupId>
-	<artifactId>circuit-breaker</artifactId>
+	<artifactId>catalog-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Circuit Breaker</name>
-	<description>Simple circuit breaker implementation for resilience experiments</description>
+	<name>Catalog Service</name>:
+	<description>Catalog Service</description>
 	<url/>
 	<licenses>
 		<license/>
