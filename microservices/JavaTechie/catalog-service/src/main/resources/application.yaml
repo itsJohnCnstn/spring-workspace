@@ -1,3 +1,10 @@
+server:
+  port: 9191
+
 spring:
-  application:
-    name: CircuitBraker
+  datasource:
+    url: jdbc:h2:mem:testdb
+  h2:
+    console:
+      enabled: true
+      path: /h2
