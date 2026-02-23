@@ -1,0 +1,5 @@
+###display all orders
+GET http://localhost:9292/user-service/displayOrders
+
+###find filtered orders
+GET http://localhost:9292/user-service/displayOrders?category=clothes

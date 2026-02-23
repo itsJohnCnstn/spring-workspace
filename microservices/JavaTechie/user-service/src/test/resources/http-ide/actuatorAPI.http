@@ -1,0 +1,5 @@
+###health
+GET http://localhost:9292/actuator/health
+
+###circuitBreakers
+GET http://localhost:9292/actuator/circuitbreakers
