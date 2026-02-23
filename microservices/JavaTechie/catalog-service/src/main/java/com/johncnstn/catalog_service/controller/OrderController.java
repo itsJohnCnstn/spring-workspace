@@ -4,6 +4,7 @@ import com.johncnstn.catalog_service.entity.Order;
 import com.johncnstn.catalog_service.repository.OrderRepository;
 import jakarta.annotation.PostConstruct;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -35,6 +36,11 @@ public class OrderController {
     @GetMapping
     public List<Order> getAllOrders() {
         return orderRepository.findAll();
+    }
+
+    @GetMapping("/{category}")
+    public List<Order> getAllOrders(@PathVariable String category) {
+        return orderRepository.findAllByCategory(category);
     }
 
 }
