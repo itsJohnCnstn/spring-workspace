@@ -6,9 +6,13 @@
   <groupId>com.johncnstn</groupId>
   <artifactId>johncnstnservices</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
   <name>johncnstnservices</name>
   <url>https://www.johncnstn.com</url>
+  <modules>
+    <module>customer</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
