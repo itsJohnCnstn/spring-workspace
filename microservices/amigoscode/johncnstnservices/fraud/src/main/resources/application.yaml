@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: fraud
+
+  datasource:
+    username: johncnstn
+    password: password
+    #    localhost because we are running the app it's not a container.
+    #    network must be used if running via docker
+    url: jdbc:postgresql://localhost:5432/fraud
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
