@@ -31,6 +31,10 @@ public class CustomerService {
             throw new IllegalStateException("fraudster");
         }
 
-        //todo: send notification
+        restTemplate.postForObject(
+                "http://NOTIFICATION-SERVICE/api/v1/notifications/notify",
+                new NotificationRequest(1, "First notification!!"),
+                Void.class
+        );
     }
 }
