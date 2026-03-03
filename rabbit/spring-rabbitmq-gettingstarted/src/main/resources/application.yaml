@@ -1,3 +1,6 @@
 spring:
   application:
     name: spring-gettingstarted
+  docker:
+    compose:
+      file: rabbit/spring-rabbitmq-gettingstarted/compose.yaml

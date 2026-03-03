@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.johncnstn</groupId>
-    <artifactId>spring-gettingstarted</artifactId>
+    <artifactId>spring-rabbitmq-gettingstarted</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-gettingstarted</name>
     <description>spring-gettingstarted</description>
