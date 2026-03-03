@@ -1,4 +1,4 @@
-package com.johncnstn.springgettingstarted;
+package com.johncnstn.springgettingstarted.receiver;
 
 import org.springframework.stereotype.Component;
 
