@@ -1,4 +1,4 @@
-package com.johncnstn.rabbitmqspringamqp.tut3;
+package com.johncnstn.rabbitmqspringamqp.tut3_pubsub;
 
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.util.StopWatch;

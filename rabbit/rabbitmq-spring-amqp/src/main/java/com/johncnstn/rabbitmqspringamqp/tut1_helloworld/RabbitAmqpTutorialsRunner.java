@@ -1,4 +1,4 @@
-package com.johncnstn.rabbitmqspringamqp.tut1;
+package com.johncnstn.rabbitmqspringamqp.tut1_helloworld;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

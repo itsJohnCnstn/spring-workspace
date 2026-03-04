@@ -1,6 +1,6 @@
 package com.johncnstn.rabbitmqspringamqp;
 
-import com.johncnstn.rabbitmqspringamqp.tut1.RabbitAmqpTutorialsRunner;
+import com.johncnstn.rabbitmqspringamqp.tut1_helloworld.RabbitAmqpTutorialsRunner;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

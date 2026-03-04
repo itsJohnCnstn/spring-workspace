@@ -1,4 +1,4 @@
-package com.johncnstn.rabbitmqspringamqp.tut2;
+package com.johncnstn.rabbitmqspringamqp.tut2_workqueues;
 
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
