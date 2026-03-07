@@ -35,3 +35,17 @@ sudo rabbitmqctl list_exchanges
 ```shell
 sudo rabbitmqctl list_bindings
 ```
+
+# Tut4
+```shell
+java -jar target/rabbitmq-spring-amqp-0.0.1-SNAPSHOT.jar --spring.profiles.active=routing,sender
+``` 
+```shell
+java -jar target/rabbitmq-spring-amqp-0.0.1-SNAPSHOT.jar --spring.profiles.active=routing,receiver
+```
+```shell
+sudo rabbitmqctl list_exchanges
+```
+```shell
+sudo rabbitmqctl list_bindings
+```

@@ -1,4 +1,4 @@
-package com.johncnstn.rabbitmqspringamqp.tut2;
+package com.johncnstn.rabbitmqspringamqp.tut2_workqueues;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.johncnstn.rabbitmqspringamqp.tut3;
+package com.johncnstn.rabbitmqspringamqp.tut3_pubsub;
 
 import org.springframework.amqp.core.FanoutExchange;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;

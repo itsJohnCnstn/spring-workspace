@@ -1,4 +1,4 @@
-package com.johncnstn.rabbitmqspringamqp.tut1;
+package com.johncnstn.rabbitmqspringamqp.tut1_helloworld;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
